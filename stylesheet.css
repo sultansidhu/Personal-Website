@@ -250,24 +250,25 @@ body{
     color: black;
     background-color: white;
     transition: all 0.5s;
+    cursor:pointer;
 }
 
 .index-btn{
     display: inline-block;
-    color: white;
-    background-color: darkgrey;
+    color: black;
+    background-color: white;
     width: 40px;
     padding: 6px 0;
     margin: 0 5px;
-    border-radius: 3px;
+    border-radius: 0px;
     cursor: pointer;
     text-align: center;
     transition: all 0.5s;
 }
 
 .index-btn:hover{
-    color:black;
-    background-color: white;
+    color:white;
+    background-color: black;
     transition: all 0.5s;
 }
 
@@ -275,6 +276,11 @@ body{
     width:20%;
     margin: 0% 38% 0% 42%;
 }
+
+/*Education Screen*/
+
+
+
 
 
 
