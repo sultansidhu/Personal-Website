@@ -60,6 +60,7 @@ body{
     height:700px;
     background-image:url("Images/Background Images/background1.png");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #welcomeScreen h1{
@@ -69,6 +70,7 @@ body{
     font-size: 150px;
     margin: auto;
     margin-top:120px;
+    padding-top: 150px
 }
 
 .makeItRed{
@@ -120,6 +122,7 @@ body{
     background-image: url("Images/Background Images/background4.png");
     background-size: cover;
     font-family: "Andale Mono";
+    background-attachment: fixed;
 }
 
 #skillScreen .container{
@@ -145,7 +148,7 @@ body{
 /*Experience screen CSS*/
 
 #experienceScreen{
-    background-image: url("Images/Background Images/background5.jpg");
+    background-color: black;
     background-size: cover;
     height:720px;
     font-family: "Andale Mono";
@@ -177,16 +180,16 @@ body{
 
 .description{
     width:40%;
-    color: black;
+    color: white;
     margin:0% 5%;
     transition: all 0.5s;
-    background-color: white;
+    background-color: black;
 }
 
 .description:hover{
-    background-color: black;
+    background-color: white;
     transition: all 0.5s;
-    color: white;
+    color: black;
     /*Use Jquery to make a bottom border appear under the job titles*/
 }
 
@@ -223,6 +226,7 @@ body{
     background-size: cover;
     height:700px;
     font-family: "Andale Mono";
+    background-attachment: fixed;
 }
 
 #projectScreen .heading{
@@ -326,6 +330,54 @@ body{
 
 /*Contact Us*/
 
+#contactScreen{
+    font-family: "Andale Mono";
+}
+
+.contact-container{
+    width: 80%;
+    margin: 5% 10%;
+    background-color: white;
+}
+
+.container-left{
+    width:50%;
+    display: inline-block;
+}
+
+.container-left h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 35% 0%;
+}
+
+.container-right{
+    display: inline-block;
+    width:50%;
+    float: right;
+    margin: 5% 0%;
+}
+
+.container-right button{
+    border:none;
+    width:100px;
+    background-color: black;
+    color: white;
+    padding: 16px 8px;
+    margin: 10px 0px;
+    font-family: "Andale Mono";
+    transition: all 0.2s;
+}
+
+.container-right button:hover{
+    cursor: pointer;
+}
+
+.container-right button:active{
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
+}
 
 
 
