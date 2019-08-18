@@ -163,8 +163,16 @@ body{
 }
 
 .image img{
-    height:240px;
+    height:280px;
     margin:0px 200px;
+}
+
+#researchExp .image img{
+    margin:0px 300px 0px 0px;
+}
+
+#stemExp .image img{
+    margin:5px 0px 0px 300px;
 }
 
 .description{
@@ -278,6 +286,47 @@ body{
 }
 
 /*Education Screen*/
+
+#educationScreen{
+    font-family: "Andale Mono";
+    height:700px;
+    background-color: black;
+    padding:20px;
+    transition:all 0.5s;
+    color: white;
+}
+
+#educationScreen .header{
+    text-align: center;
+    font-weight: normal;
+}
+
+.school {
+    width:26%;
+    margin:3%;
+    display:inline-block;
+    transition: all 0.5s; 
+}
+
+.school:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.school-img img{
+    width:80%;
+    margin: 10%;
+}
+
+.school-desc{
+    padding:5%;
+}
+
+/*Contact Us*/
+
+
 
 
 
