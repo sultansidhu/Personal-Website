@@ -142,6 +142,78 @@ body{
     font-weight:bolder;
 }
 
+/*Experience screen CSS*/
+
+#experienceScreen{
+    background-image: url("Images/Background Images/background5.jpg");
+    background-size: cover;
+    height:720px;
+    font-family: "Andale Mono";
+}
+
+#experienceScreen .heading{
+    color:white;
+    text-align: center;
+    font-weight: normal;
+    padding:20px;
+}
+
+
+
+.image img{
+    height:240px;
+    margin:0px 200px;
+}
+
+.description{
+    width:40%;
+    color: black;
+    margin:0% 5%;
+    transition: all 0.5s;
+    background-color: white;
+}
+
+.description:hover{
+    background-color: black;
+    transition: all 0.5s;
+    color: white;
+}
+
+.description p{
+    width:80%;
+    padding:0% 10%;
+}
+
+#researchExp {
+    height:300px;
+}
+
+#researchExp .image{
+    float:right;
+}
+
+#researchExp .description{
+    float:left;
+}
+
+#stemExp .description{
+    float:right;
+}
+
+#stemExp .image{
+    float:left;
+    height:320px;
+}
+
+
+
+
+
+    
+
+
+
+
 
 
 
